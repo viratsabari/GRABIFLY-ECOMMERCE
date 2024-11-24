@@ -1,0 +1,61 @@
+.adminnavbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.adminnavbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.adminnavbar .links {
+    display: flex;
+    gap: 15px;
+}
+
+.adminnavbar .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.adminnavbar .links a:hover {
+    color: #ffa726;
+}
+
+.adminnavbar .dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.adminnavbar .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    min-width: 150px;
+    z-index: 10;
+}
+
+.adminnavbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+

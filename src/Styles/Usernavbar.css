@@ -1,0 +1,99 @@
+.usernavbar>.links>input{
+    width: 200px;
+    height: 30px;
+}
+.usernavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.usernavbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.usernavbar .links {
+    display: flex;
+    gap: 15px;
+}
+
+.usernavbar .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.usernavbar .links a:hover {
+    color: #ffa726;
+}
+
+.usernavbar .dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.usernavbar .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    min-width: 150px;
+    z-index: 10;
+}
+
+.usernavbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+.usernavbar{
+    font-size: 30px;
+}
+
+.usernavbar .links #search {
+    width: 200px;
+    height: 20px;
+    margin-top: 2px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.usernavbar .links #search:focus {
+    border-color: #ffa726;
+    box-shadow: 0 0 5px rgba(255, 167, 38, 0.5);
+}
+
+
+.usernavbar .links button {
+    height: 20px;
+    padding-bottom: 5px;
+    background-color: gray;
+    color: #fff;
+    margin-top: 2px;
+    margin-left: 10px;
+    border: none;
+    position: relative;
+    right: 18px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.usernavbar .links button:hover {
+    background-color: #ff9800;
+}

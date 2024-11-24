@@ -1,0 +1,115 @@
+
+.userprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow: scroll;
+
+  }
+  .userdetails>img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+ 
+  .userdetails {
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(5px); 
+    padding: 20px;
+    margin: 20px 0;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+
+  .userdetails:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .userdetails h1 {
+    color: #444;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  
+  .userdetails h1:last-of-type {
+    
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+
+  .userdetails button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 15px;
+  }
+  #out{
+    background-color: red;
+
+  }
+  
+
+  .userdetails button:hover {
+    background-color: #ff3399;
+    transform: scale(1.05);
+  }
+  
+  
+  .qr-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+
+  .qr-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: scale(0.8);
+    animation: qrAppear 0.5s forwards 0.2s;
+    margin-left: 20px;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes qrAppear {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+
+}
+
+.admin-homepage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+
+}

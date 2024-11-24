@@ -1,0 +1,37 @@
+.contact-us {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);  /* Transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+    backdrop-filter: blur(10px);  /* Blur effect for background */
+    max-width: 800px;
+  }
+  
+  .contact-us h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-us h3 {
+    color: #34495e;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  .contact-us p {
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .contact-us a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  

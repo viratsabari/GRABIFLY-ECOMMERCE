@@ -1,0 +1,103 @@
+.updateproducts{
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    overflow: scroll;
+}
+
+.updateproducts>h1{
+    left: 10px;
+    display: inline;
+    font-size: 35px;
+    color:  palevioletred;
+   position: absolute;
+   top: 250px;
+}
+.updateproducts>form{
+   height: 400px;
+    width: 700px;
+    color: white; 
+    display: grid;
+    grid-template-rows: 50px;   
+ 
+    margin-left: 450px;
+    position: relative;
+    
+}
+.updateproducts>form>label{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+.updateproducts>form>textarea{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.updateproducts>form>input,textarea {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.updateproducts>form>input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.updateproducts>form>button {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    padding: 25px; 
+    margin-top: 40px;
+    /* margin-bottom: 66px; */
+    width: 50%;
+     margin-left: 33px;
+    border-radius: 25px; 
+    cursor: pointer;
+    height: 50px;
+    
+}
+.updateproducts>form>button>span{
+     position: absolute;
+     top: 600px;
+
+     width: 1000px;
+     right: 1px ;
+     color: white;
+     font-size: 20px;
+     font-family: sans-serif;
+}
+.updateproducts>form>button:hover{
+    background-color: palevioletred;
+}
+.updateproducts>form>select{
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.updateproducts>form>select{
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: black; 
+    width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}

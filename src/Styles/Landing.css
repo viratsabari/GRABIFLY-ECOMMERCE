@@ -1,0 +1,66 @@
+.page>h1,span{
+     position: absolute;
+    top: 5px;
+    color: gold;
+    font-size: 40px; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bolder;
+    letter-spacing: 1px; 
+    margin-left: 400px;
+}
+.page>span{
+        position: absolute;
+        top: 90px;
+        color: #e6e6fa;
+        font-size: 40px; 
+        margin-left: 470px;
+} 
+.page{
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.login{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    
+}
+.adminarea>a>img{
+     width: 300px;
+     height: 300px;
+   
+}
+.userarea>a>img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 2px;
+    
+}
+.adminarea:hover{
+    transform: scale(1.2);
+}
+.userarea:hover{
+    transform: scale(1.2);
+}
+
+.adminarea>h6{
+    display: inline;
+    position: absolute;
+    top:255px;
+    left: 50px;
+}
+.userarea>h6{
+    display: inline;
+    position: absolute;
+    top:253px;
+    /* left: 200px; */
+    margin-left: 160px;
+    
+    
+}

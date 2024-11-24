@@ -1,0 +1,80 @@
+.singupmethod{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-top: 130px; */
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.usingphone>h1{
+    color: palevioletred;
+    position: absolute;
+    left: 390px;
+}
+
+
+
+.usingphone>form{
+    /* margin-top: 130px; */
+    height: 400px;
+    width: 700px;
+    color: white; 
+    display: grid;
+    grid-template-rows: 50px;   
+    padding-top: 50px;
+    margin-left: 350px;
+}
+.usingphone>form>label{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+.usingphone>form>input {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+     width: 600px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.usingphone>form>input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+.usingphone>form>h1{
+    font-size: 30px;
+    color: palevioletred;
+}
+.usingphone>form>button {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    padding: 25px; 
+    margin-top: 10px;
+    /* margin-bottom: 66px; */
+    width: 50%;
+    margin-top: 40px;
+     margin-left: 140px;
+    border-radius: 25px; 
+    cursor: pointer;
+    height: 50px;
+    
+}
+.usingphone>form>button>span{
+     position: absolute;
+     top: 425px;
+     right: 560px ;
+     color: white;
+     font-size: 25px;
+     font-family: sans-serif;
+
+}
+.usingphone>form>button:hover{
+    background-color: palevioletred;
+}
+

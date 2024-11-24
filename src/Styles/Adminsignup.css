@@ -1,0 +1,76 @@
+.Adminsignup{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-top: 130px; */
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.Adminsignup>h1{
+    left: 400px;
+    color:  palevioletred;
+   position: absolute;
+   top: 50px;
+}
+.Adminsignup>form{
+    /* margin-top: 130px; */
+    height: 400px;
+    width: 700px;
+    color: white; 
+    display: grid;
+    grid-template-rows: 50px;   
+    padding-top: 50px;
+    margin-left: 400px;
+    position: relative;
+    top: 50px;
+}
+.Adminsignup>form>label{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+.Adminsignup>form>input {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    width: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.Adminsignup>form>input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.Adminsignup>form>button {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    padding: 25px; 
+    margin-top: 40px;
+    /* margin-bottom: 66px; */
+    width: 30%;
+     margin-left: 100px;
+    border-radius: 25px; 
+    cursor: pointer;
+    height: 50px;
+    
+}
+.Adminsignup>form>button>span{
+     position: absolute;
+     top: 360px;
+
+     width: 70px;
+     right: 470px ;
+     color: white;
+     font-size: 14px;
+     font-family: sans-serif;
+}
+.Adminsignup>form>button:hover{
+    background-color: palevioletred;
+}

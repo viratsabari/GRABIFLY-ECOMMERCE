@@ -1,0 +1,377 @@
+{
+  "Admin": [
+    {
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002",
+      "id": "4d73"
+    },
+    {
+      "username": "yaswa",
+      "password": "yaswa2020",
+      "DOB": "12-01-2002",
+      "id": "a05a"
+    },
+    {
+      "id": "a046",
+      "username": "hari",
+      "password": "hari@2002"
+    },
+    {
+      "id": "944a",
+      "username": "sabari",
+      "password": "sab2020"
+    },
+    {
+      "id": "1eea",
+      "username": "naveen",
+      "password": "naveen 2020"
+    },
+    {
+      "id": "fb41",
+      "username": "sa",
+      "password": "sa",
+      "retypepassword": "sa"
+    }
+  ],
+  "user": [
+    {
+      "id": "408d",
+      "email": "sabarivirat2@gmail.com",
+      "username": "viratsabari",
+      "password": "sabari2020",
+      "retypepassword": "sabari2020"
+    },
+    {
+      "id": "a1af",
+      "email": "sabarivirat488@gmail.com",
+      "username": "sabarivirat",
+      "password": "sabari2002",
+      "retypepassword": "sabari2002"
+    },
+    {
+      "id": "59a5",
+      "email": "sabarivirat48@gmail.com",
+      "username": "sabarivira",
+      "password": "sabari2002",
+      "retypepassword": "sabari2002"
+    },
+    {
+      "id": "7b3e",
+      "email": "sabarivirat8@gmail.com",
+      "username": "sabariviratt",
+      "password": "sabari2002",
+      "retypepassword": "sabari2002"
+    },
+    {
+      "id": "ba18",
+      "email": "sabarivirat22@gmail.com",
+      "username": "sabari",
+      "password": "2020",
+      "retypepassword": "2020"
+    },
+    {
+      "id": "9f5e",
+      "email": "sabarivir@gmail.com",
+      "username": "aa",
+      "password": "aaa",
+      "retypepassword": "aaa"
+    },
+    {
+      "id": "9860",
+      "email": "sabarivirt2@gmail.com",
+      "username": "sssss",
+      "password": "aaa",
+      "retypepassword": "aaa"
+    }
+  ],
+  "addproducts": [
+    {
+      "name": "Amazon Echo Dot (4th Gen)",
+      "quantity": "101",
+      "pdetails": "Smart speaker with Alexa voice control.",
+      "pimage": "https://m.media-amazon.com/images/I/81VttNsrDwL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 49.99,
+      "id": "prod005"
+    },
+    {
+      "name": "Fitbit Charge ",
+      "quantity": "79",
+      "pdetails": "Advanced fitness and health tracker.",
+      "pimage": "https://m.media-amazon.com/images/I/81Qujc-qLGL._AC_SR230,210_QL70_.jpg",
+      "price": 149.95,
+      "id": "prod006"
+    },
+    {
+      "id": "prod007",
+      "name": "Nikon D3500 Camera",
+      "quantity": 15,
+      "ptype": "Electronics",
+      "pdetails": "Compact DSLR camera with 24.2MP.",
+      "pimage": "https://m.media-amazon.com/images/I/51G-xwb7QHL._SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 499.95
+    },
+    {
+      "id": "prod008",
+      "name": "Kindle Paperwhite",
+      "quantity": 60,
+      "ptype": "Electronics",
+      "pdetails": "Waterproof e-reader with adjustable warm light.",
+      "pimage": "https://m.media-amazon.com/images/I/71bZ9PILO4L._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 139.99
+    },
+    {
+      "id": "prod009",
+      "name": "HP Pavilion Gaming Desktop",
+      "quantity": 10,
+      "ptype": "Electronics",
+      "pdetails": "High-performance gaming desktop.",
+      "pimage": "https://m.media-amazon.com/images/I/61wt6u4yXEL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 899.99
+    },
+    {
+      "id": "prod013",
+      "name": "Cuisinart 14-Cup Food Processor",
+      "quantity": 35,
+      "ptype": "Home & Kitchen",
+      "pdetails": "Powerful food processor for versatile meal prep.",
+      "pimage": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e10b7028-f858-4e32-ae02-e9424ccda62c._CR0,0,1200,628_SX810_QL70_.jpg",
+      "price": 199.95
+    },
+    {
+      "id": "prod014",
+      "name": "KitchenAid Stand Mixer",
+      "quantity": 20,
+      "ptype": "Home & Kitchen",
+      "pdetails": "Iconic stand mixer with powerful motor.",
+      "pimage": "https://m.media-amazon.com/images/I/41uLE5xZbNL._AC_SR250,250_QL65_.jpg",
+      "price": 379.99
+    },
+    {
+      "id": "prod015",
+      "name": "Shark Navigator Lift-Away",
+      "quantity": 40,
+      "ptype": "Home & Kitchen",
+      "pdetails": "Lightweight vacuum cleaner with detachable pod.",
+      "pimage": "https://m.media-amazon.com/images/I/51mfMLzjA4L._AC_SR230,210_QL70_.jpg",
+      "price": 199.99
+    },
+    {
+      "id": "prod016",
+      "name": "SodaStream Fizzi Sparkling Water Maker",
+      "quantity": 50,
+      "ptype": "Home & Kitchen",
+      "pdetails": "Make your own sparkling water at home.",
+      "pimage": "https://m.media-amazon.com/images/I/31QjXlg1yuL._AC_SR250,250_QL65_.jpg",
+      "price": 89.99
+    },
+    {
+      "id": "prod018",
+      "name": "Bose SoundLink Flex",
+      "quantity": 60,
+      "ptype": "Electronics",
+      "pdetails": "Portable Bluetooth speaker with waterproof design.",
+      "pimage": "https://m.media-amazon.com/images/I/31bJsdCVFkS._AC_SR250,250_QL65_.jpg",
+      "price": 149.99
+    },
+    {
+      "id": "prod019",
+      "name": "Garmin Forerunner 245",
+      "quantity": 45,
+      "ptype": "Electronics",
+      "pdetails": "GPS running watch with advanced metrics.",
+      "pimage": "https://m.media-amazon.com/images/I/612JuznKwlL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 349.99
+    },
+    {
+      "id": "prod020",
+      "name": "ASUS ROG Zephyrus G14",
+      "quantity": 15,
+      "ptype": "Electronics",
+      "pdetails": "Gaming laptop with AMD Ryzen and NVIDIA graphics.",
+      "pimage": "https://m.media-amazon.com/images/I/61-Y-eWXqtL._AC_SR230,210_QL70_.jpg",
+      "price": 1399.99
+    },
+    {
+      "id": "prod021",
+      "name": "Sony PlayStation 5",
+      "quantity": 25,
+      "ptype": "Electronics",
+      "pdetails": "Next-gen gaming console with stunning graphics.",
+      "pimage": "https://m.media-amazon.com/images/I/51afJC92cgL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 499.99
+    },
+    {
+      "id": "prod022",
+      "name": "Oculus Quest 2",
+      "quantity": 40,
+      "ptype": "Electronics",
+      "pdetails": "All-in-one virtual reality headset.",
+      "pimage": "https://m.media-amazon.com/images/I/51cxZAzpy+L._AC_SR250,250_QL65_.jpg",
+      "price": 299.99
+    },
+    {
+      "id": "prod023",
+      "name": "Anker PowerCore Portable Charger",
+      "quantity": 80,
+      "ptype": "Electronics",
+      "pdetails": "High-capacity power bank for mobile devices.",
+      "pimage": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c6c68c82-bbfe-47a9-9cb9-2dceb8eb2fa6._CR0,1,1372,719_SX810_QL70_.jpg",
+      "price": 39.99
+    },
+    {
+      "id": "prod024",
+      "name": "Logitech G502 HERO Gaming Mouse",
+      "quantity": 50,
+      "ptype": "Electronics",
+      "pdetails": "High-performance gaming mouse with customizable options.",
+      "pimage": "https://m.media-amazon.com/images/I/61gTZK9as+L._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 49.99
+    },
+    {
+      "id": "prod025",
+      "name": "Razer Kraken Gaming Headset",
+      "quantity": 30,
+      "ptype": "Electronics",
+      "pdetails": "Gaming headset with surround sound.",
+      "pimage": "https://m.media-amazon.com/images/I/61oCQB6wzjL._AC_SR230,210_QL70_.jpg",
+      "price": 79.99
+    },
+    {
+      "id": "prod026",
+      "name": "JBL Flip 5 Bluetooth Speaker",
+      "quantity": 45,
+      "ptype": "Electronics",
+      "pdetails": "Portable waterproof Bluetooth speaker.",
+      "pimage": "https://m.media-amazon.com/images/I/31CnC9P1tML._AC_SR250,250_QL65_.jpg",
+      "price": 89.95
+    },
+    {
+      "id": "prod027",
+      "name": "Acer Predator Helios 300",
+      "quantity": 10,
+      "ptype": "Electronics",
+      "pdetails": "Gaming laptop with Intel i7 and NVIDIA GTX.",
+      "pimage": "https://m.media-amazon.com/images/I/71nz3cIcFOL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 1399.99
+    },
+    {
+      "id": "prod028",
+      "name": "Lenovo IdeaPad 3",
+      "quantity": 20,
+      "ptype": "Electronics",
+      "pdetails": "Affordable laptop with AMD Ryzen 5.",
+      "pimage": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/dafa5f9d-e334-42b0-9b57-40432513e838._CR0,0,1200,628_SX810_QL70_.jpg",
+      "price": 549.99
+    },
+    {
+      "id": "prod029",
+      "name": "TP-Link AC1750 WiFi Range Extender",
+      "quantity": 100,
+      "ptype": "Electronics",
+      "pdetails": "Boost your Wi-Fi coverage.",
+      "pimage": "https://m.media-amazon.com/images/I/51nFvs37m8L._AC_SR230,210_QL70_.jpg",
+      "price": 39.99
+    },
+    {
+      "id": "prod030",
+      "name": "Apple AirPods Pro",
+      "quantity": 70,
+      "ptype": "Electronics",
+      "pdetails": "Active noise cancellation and customizable fit.",
+      "pimage": "https://m.media-amazon.com/images/I/61oCISLE+PL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 249.99
+    }
+  ],
+  "viewcart": [
+    {
+      "id": "prod005",
+      "name": "Amazon Echo Dot (4th Gen)",
+      "quantity": "101",
+      "pdetails": "Smart speaker with Alexa voice control.",
+      "pimage": "https://m.media-amazon.com/images/I/81VttNsrDwL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 49.99
+    },
+    {
+      "id": "prod006",
+      "name": "Fitbit Charge 5",
+      "quantity": "79",
+      "pdetails": "Advanced fitness and health tracker.",
+      "pimage": "https://m.media-amazon.com/images/I/81Qujc-qLGL._AC_SR230,210_QL70_.jpg",
+      "price": 149.95
+    }
+  ],
+  "currentuser": [
+    {
+      "id": "408d",
+      "email": "sabarivirat2@gmail.com",
+      "username": "viratsabari",
+      "password": "sabari2020",
+      "retypepassword": "sabari2020"
+    }
+  ],
+  "currentadmin": [
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    },
+    {
+      "id": "4d73",
+      "username": "virat sabari",
+      "password": "sabari2020",
+      "DOB": "30-12-2002"
+    }
+  ],
+  "userfeedback": [
+    {
+      "id": "4d95",
+      "name": "sabari",
+      "email": "sabarivirat2@gmail.com",
+      "feedback": "make it more use friendly"
+    },
+    {
+      "id": "5041",
+      "name": "yaswanth",
+      "email": "sabarivirat488@gmail.com",
+      "feedback": "make it more intrative"
+    }
+  ]
+}

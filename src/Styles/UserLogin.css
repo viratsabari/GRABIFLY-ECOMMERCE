@@ -1,0 +1,103 @@
+.User>form{
+    margin-top: 130px;
+    height: 400px;
+    width: 440px;
+    color: white; 
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 25px;   
+   
+}
+ .User>form>label{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+.User>form>input {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.User>form>input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.User>form>button {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    color: #fff; 
+    padding: 25px;
+    /* margin-top: 1px; */
+    margin-bottom: 66px;
+    width: 70%;
+    margin-left: 70px;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 50px;
+    
+}
+.User>form>button>span{
+     position: absolute;
+     top: 408px;
+     right: 610px ;
+     color: white;
+     font-size: 19px;
+     font-family: sans-serif;
+     
+
+}
+
+.User>form>button:hover {
+    background-color: palevioletred;
+    
+}
+.User>h1{
+    
+        position: absolute;
+        top: 70px;
+        color: #e6e6fa;
+        font-size: 40px; 
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+        font-family: 'Arial', sans-serif; 
+        font-weight: bolder;
+        letter-spacing: 1px; 
+        text-align: center;
+}
+.User{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 130px; */
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.User>form>a>span{
+    position: absolute;
+     top: 354px;
+     right: 420px ;
+     color: white;
+     font-size: 17px;
+     font-family: sans-serif;
+}
+.User>form>a>span:hover{
+        color: palevioletred;
+}
+#sign{
+    position: absolute;
+    top: 354px;
+    right: 750px ;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.User>form>a>#sign:hover{
+    color: palevioletred;
+}

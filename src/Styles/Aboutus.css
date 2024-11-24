@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .aboutus {
+    background: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards; 
+  }
+  
+
+  .aboutus h1 {
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    animation: slideUp 1s ease-out;
+  }
+  
+
+  .aboutus p {
+    text-align: center;
+    color: #5d5d5d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    opacity: 0;
+    animation: fadeInText 1s ease-out forwards;
+  }
+  
+
+ .about>form {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    opacity: 0;
+    animation: fadeInForm 1s ease-out forwards;
+  }
+  
+  
+  .about>form>input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+    color: palevioletred;
+  }
+  
+  .about>form>input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #f7a1a1; 
+    box-shadow: 0px 0px 5px rgba(255, 105, 180, 0.5); 
+  }
+  
+  
+  .about>form>button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f7a1a1; 
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about>form>button[type="submit"]:hover {
+    background-color: #d78e8e; 
+ }
+  
+  
+  .aboutus img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .aboutus img:hover {
+    transform: scale(1.1); 
+  }
+  
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInForm {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
